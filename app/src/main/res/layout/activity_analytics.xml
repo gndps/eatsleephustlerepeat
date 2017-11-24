@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingTop="32dp"
+    tools:context="io.github.gndps.eatsleephustlerepeat.AnalyticsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_eat_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat time today" />
+
+        <TextView
+            android:id="@+id/tv_eat_time_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="1 hr 30 mins" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_sleep_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleep time today" />
+
+        <TextView
+            android:id="@+id/tv_sleep_time_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="8 hrs" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_work_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work time today" />
+
+        <TextView
+            android:id="@+id/tv_work_time_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="8 hrs" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_hustle_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hustle time today" />
+
+        <TextView
+            android:id="@+id/tv_hustle_time_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="3 hrs" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_break_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Break time today" />
+
+        <TextView
+            android:id="@+id/tv_break_time_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="3 hrs 30 mins" />
+
+    </RelativeLayout>
+
+</LinearLayout>
